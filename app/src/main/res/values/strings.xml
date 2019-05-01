@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Craftify Wallpapers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ads">AdsActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Craftify Wallpapers</string>
+    <string name="nav_header_subtitle">craftify.wallpapers@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="info">Info</string>
+    <string name="rate_us">Rate us</string>
+    <string name="popular">Popular</string>
+    <string name="winter">Winter</string>
+    <string name="anime">Anime</string>
+    <string name="abstract1">Abstract</string>
+    <string name="art">Art</string>
+    <string name="architecture">Architecture</string>
+    <string name="black_and_white">Black and White</string>
+    <string name="creative">Creative</string>
+    <string name="nature">Nature</string>
+    <string name="all">All</string>
+
+    <string name="bikes">Bikes</string>
+    <string name="house">House</string>
+
+    <string name="cars">Cars</string>
+    <string name="forest">Forest</string>
+    <string name="city">City</string>
+    <string name="fire">Fire</string>
+    <string name="summer">Summer</string>
+    <string name="stars">Stars</string>
+    <string name="god">God</string>
+    <string name="construction">Construction</string>
+    <string name="dark">Dark</string>
+    <string name="green">Green</string>
+    <string name="gift">Gift</string>
+    <string name="garden">Garden</string>
+    <string name="desert">Desert</string>
+    <string name="trees">Trees</string>
+    <string name="wall">Wall</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

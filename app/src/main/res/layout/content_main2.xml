@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:tabMode="scrollable"
+        app:tabTextColor="@color/colorTextPrimary">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/popular" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abstract1" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/art" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/architecture" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/black_and_white" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bikes" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cars" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Construction" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creative" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desert" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fire" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forest" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garden" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="God" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="House" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nature" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stars" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summer" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trees" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wall" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabItem10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quotes" />
+
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+    </android.support.v4.view.ViewPager>
+
+
+</android.support.constraint.ConstraintLayout>
